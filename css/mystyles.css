@@ -1,0 +1,92 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    background-color: #dbeeff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    background-color: #002E5D;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header img {
+    width: 350px;
+    max-width: 90% /*I think i used this right?*/
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #0057b8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN CONTAINER DIV */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* ROSTER DIV */
+.roster-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* VIDEO DIV */
+.video-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Button */
+.top-button {
+    display: block;
+    width: 160px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #0057b8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #002E5D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
